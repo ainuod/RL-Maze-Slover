@@ -4,3 +4,5 @@ venv/
 
 # path log file
 path_log.txt
+
+__pycache__/
