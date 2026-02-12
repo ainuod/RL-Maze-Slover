@@ -38,7 +38,7 @@ class Grid:
             return False
 
     #function to see what actions possible are from the current state
-    def get_valid_action(self, state):
+    def get_valid_actions(self, state):
         actions = []
         r,c = state
         for action, (dr, dc) in ACTIONS.items():
